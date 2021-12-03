@@ -8,7 +8,8 @@ elif [[ $DISTRO -eq "ubuntu" ]]; then
     sudo apt install build-essentials git aria2 unzip zsh tmux curl
 fi
 
-zsh -c ./setup_zsh.sh
-bash -c ./setup_android.sh
-bash -c ./setup_node.sh
-bash -c ./setup_tmux.sh
+zsh -c .setup/zsh.sh
+zsh -c .setup/android.sh
+zsh -c .setup/node.sh
+zsh -c .setup/tmux.sh
+zsh -c .setup/flutter.sh
