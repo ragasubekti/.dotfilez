@@ -23,5 +23,5 @@ fi
 
 source $HOME/.zshrc
 # sdkmanager "platform-tools"
-sdkmanager "platforms;android-29" "build-tools;29.0.3" "platform-tools"
-sdkmanager --licenses
+yes | sdkmanager "platforms;android-29" "build-tools;29.0.3" "platform-tools"
+yes | sdkmanager --licenses
