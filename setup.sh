@@ -1,5 +1,6 @@
 #!/bin/bash
 
+export SHELL=/bin/zsh
 DISTRO=$(awk -F '=' '/^ID=/ {print tolower($2)}' /etc/*-release)
 
 if [[ $DISTRO -eq "arch" ]]; then
