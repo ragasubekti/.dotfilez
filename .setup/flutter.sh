@@ -17,4 +17,4 @@ fi
 
 source $HOME/.zshrc
 flutter doctor
-flutter doctor --android-licenses
+yes | flutter doctor --android-licenses
