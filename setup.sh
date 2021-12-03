@@ -11,3 +11,4 @@ fi
 zsh -c ./setup_zsh.sh
 bash -c ./setup_android.sh
 bash -c ./setup_node.sh
+bash -c ./setup_tmux.sh
