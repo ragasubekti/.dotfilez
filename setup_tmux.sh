@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git clone https://github.com/gpakosz/.tmux.git $HOME/.tmux
-ln -s -f $HOME/.tmux/.tmux.conf
+ln -s -f $HOME/.tmux/.tmux.conf $HOME/.tmux.conf
 cp $HOME/.tmux/.tmux.conf.local $HOME
 
 if ! grep -q autostart_tmux "$HOME/.zshrc"; then
